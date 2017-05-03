@@ -27,7 +27,8 @@ else
  $message = "Login failed";
     array_push($response,array("code"=>$code,"message"=>$message));
   echo json_encode(array("server_response"=>$response));
-  header('Location: index.php');
+  alert("Por favor, ingrese usuario o contraseña validos");
+
 
 }
 
