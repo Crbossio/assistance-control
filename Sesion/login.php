@@ -17,7 +17,7 @@ if(mysqli_num_rows($result)>0)
  $message = "Login success and Welcome ".$name;
     array_push($response,array("code"=>$code,"message"=>$message));
     echo json_encode(array("server_response"=>$response));
-    header('Location: index.php');
+    header('Location: nuevindex.php');
 
 }
 else
@@ -27,7 +27,7 @@ else
  $message = "Login failed";
     array_push($response,array("code"=>$code,"message"=>$message));
   echo json_encode(array("server_response"=>$response));
-  header('Location: nuevoindex.php');
+  header('Location: index.php');
 
 }
 
