@@ -29,7 +29,7 @@ else
   echo json_encode(array("server_response"=>$response));
 // <script src="js/jquery-3.1.0.min.js"></script>
 
-//  alert("Por favor, ingrese usuario o contraseña validos");
+  alert("Por favor, ingrese usuario o contraseña validos");
  
  
   header('Location: index.php');
