@@ -125,7 +125,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="tab-3 resp-tab-content" aria-labelledby="tab_item-3">
 				<!-- graficos -->
 						<li>
-						<a href="/web/graf.php"> Diagrama de barras</a> 
+						<a href="/graf.php"> Diagrama de barras</a> 
 						</li>
 						<li>
 						<a> Mapas de calor</a>  
