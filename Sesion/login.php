@@ -32,7 +32,7 @@ else
   alert("Por favor, ingrese usuario o contraseña validos");
  
  
-  header('Location: index.php');
+  //header('Location: index.php');
 
 }
 
