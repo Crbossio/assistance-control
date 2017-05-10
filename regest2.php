@@ -36,7 +36,7 @@ if (!$retry_value) {
    die('Error: ' . mysql_error());
 }
     
-header('Location: successprof.html');
+header('Location: successprof.php');
 }
 
 mysql_close($db_connection);
