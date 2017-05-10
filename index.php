@@ -134,7 +134,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a href="/web/nuevoindex.html"> Cerrar sesión</a> 
 						</li> -->
 
-						<form method="post" action="/web/login.php">
+						<form method="post" action="/login.php">
 						<table>	
 
 						<tr>
