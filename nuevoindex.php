@@ -127,23 +127,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 						<li>
-						<a href="/web/graf.php"> Estadísticos</a> 
+						<a href="/graf.php"> Estadísticos</a> 
 						</li>
 
 						<li>
-						<a href="/web/regprof.php">Registrar profesores</a>  
+						<a href="/regprof.php">Registrar profesores</a>  
 						</li>
 
 						<li>
-						<a href="/web/regcurs.php">Registrar cursos</a>  
+						<a href="/regcurs.php">Registrar cursos</a>  
 						</li>
 
 						<li>
-						<a href="/web/validar.php"> Alerta de ausentes </a>  
+						<a> Alerta de ausentes </a>  
 						</li>
 
 						<li>
-						<a href="/web/index.php"> Cerrar sesión</a> 
+						<a href="/index.php"> Cerrar sesión</a> 
 						</li>
 
 
