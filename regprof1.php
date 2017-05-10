@@ -27,7 +27,7 @@ header('Location: Fail.html');
 
 } else {
     
-    $insert_value = 'INSERT INTO `' . $db_name . '`.`'.$db_table_name.'` (`id` , `name` , `email`,`password`) VALUES ("' . $subs_cedula . '", "' . $subs_name . '", "' . $subs_email . '",  "' . $subs_contraseña . '"  )';
+    $insert_value = 'INSERT INTO '' . $db_name . ''.''.$db_table_name.'' ('id' , 'name' , 'email','password') VALUES ("' . $subs_cedula . '", "' . $subs_name . '", "' . $subs_email . '",  "' . $subs_contraseña . '"  )';
 
 mysql_select_db($db_name, $db_connection);
 $retry_value = mysql_query($insert_value, $db_connection);
