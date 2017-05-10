@@ -6,6 +6,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <html>
+
+
 <head>
 <title> CBP Assistance Control</title>
 <!-- for-mobile-apps -->
@@ -43,36 +45,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</ul>
 
 								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-				<!-- home -->					
+				<!-- home -->				
+
 								
 								<head>
 
 								<link href="estilos.css" rel="stylesheet" type="text/css">
 								<div class="group">
-								  <form action="regprof1.php" method="POST">
-
+								  <form action="regest.php" method="POST">
 								
 								  <h2 ><em>Formulario de Registro</em></h2>  
-								  <h2 ><em>(Profesores)</em></h2> 
+								  <h2 ><em>(Curso)</em></h2> 
 								 
 								  	 
-								      <label for="nombre">Nombre <span><em>(requerido)</em></span></label>
-								      <input type="text" name="nombre" class="form-input" required/>   
-								     
-
-								    
-								      <label  for="email">Email <span><em>(requerido)</em></span></label>
-								      <input type="email" name="email" class="form-input" />								  
-								      
+								      <label for="curso">Curso <span><em>(requerido)</em></span></label>
+								      <input type="text" name="curso" class="form-input" required/>   
+								 
 
 								      
-								      <label for="cedula">Cedula <span><em>(requerido)</em></span></label>
-								      <input type="text" name="cedula" class="form-input" required/>    
-								          
-								      <label for="contraseña">Contraseña <span><em>(requerido)</em></span></label>
-								      <input type="password" name="contraseña" class="form-input" required/> 
-
-								     <center> <input class="form-btn" name="submit" type="submit" value="Inscribirse" /></center>
+								     <center> <input class="form-btn" name="submit" type="submit" value="Registrar curso" /></center>
 								    </p>
 								  </form>
 								</div>
