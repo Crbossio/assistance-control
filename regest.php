@@ -82,7 +82,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="w3ls_logo_nav_right">
 					<div class="sap_tabs">
 						<div class="w3ls_logo_nav_left">
-							<h1><a href="index.html" > <font size="6"> CBP Assistance Control </font> </a> </h1>
+							<h1><a href="index.php" > <font size="6"> CBP Assistance Control </font> </a> </h1>
 						</div>
 						<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 							<div class="resp-tabs-container">
