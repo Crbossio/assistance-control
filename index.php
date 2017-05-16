@@ -198,9 +198,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													
 												</div>
 												<div class="clearfix"> 
-												<textarea name="Message" placeholder="Mensaje..." required=""></textarea>
+												<textarea id="Mensaje" name="Mensaje" placeholder="Mensaje..." required=""></textarea>
 												</div>
-												<button  type="submit">Enviar</button>
+												<input  type="submit" value="Enviar">
 											</form>
 										</div>
 									</div>
@@ -210,17 +210,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<div class="agileinfo_map_color_grid">
 												<div class="col-md-4 agileinfo_map_color_grid_left">
 													<h4><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>Address</h4>
-													<p>123 San Sebastian, Hill Towers 4567 New York City, USA.</p>
+													<p>Buena esperanza, Calle 61 #14-112 Barranquilla, Colombia.</p>
 												</div>
 												<div class="col-md-4 agileinfo_map_color_grid_left">
 													<h4><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Mail Me</h4>
-													<p><a href="mailto:example@mail.com"> mail@example.com</a></p>
-													<p><a href="mailto:example@mail.com"> mail@example1.com</a></p>
+													<p><a href="mailto:example@mail.com"> ptromp@uninorte.edu.co</a></p>
+													<p><a href="mailto:example@mail.com"> cardozob@uninorte.edu.co</a></p>
 												</div>
 												<div class="col-md-4 agileinfo_map_color_grid_left">
 													<h4><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>Phone</h4>
-													<p>+(018) 111 333 4444</p>
-													<p>+(018) 111 333 4445</p>
+													<p>(+57) 3002760424</p>
+													<p>(+57) 3003822915</p>
 												</div>
 												<div class="clearfix"> </div>
 											</div>
