@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>Formulario enviado</title>
-<link href="css/estilos.css" rel="stylesheet" type="text/css">
+<link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
