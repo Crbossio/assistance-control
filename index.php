@@ -204,7 +204,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<div class="clearfix"> 
 												<textarea name="Message" placeholder="Mensaje..." required=""></textarea>
 												</div>
-												<input type="submit" value="Submit">
+												<button  type="submit">Enviar</button>
 											</form>
 										</div>
 									</div>
