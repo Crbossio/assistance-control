@@ -14,7 +14,7 @@
   <h2><em>Formulario enviado!</em></h2>
 
   </form>
-  <form action="index.php" method="POST">
+  <form action="nuevoindex.php" method="POST">
   <center> <input class="form-btn" name="submit" type="submit" value="Aceptar" /></center>
   </form>
 </div>
