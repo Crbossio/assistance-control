@@ -182,17 +182,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<div class="agileits_agile_about">
 										<h3>Contáctenos</h3>
 										<div class="agileits_agile_about_mail">
-											<form action="#" method="post">
+											<form action="enviar2.php" method="post">
 												<div class="col-md-6 agileits_agile_about_mail_left">
-													<input type="text" name="Nombre" placeholder="Nombre" required="">
-													<input type="text" name="Asunto" placeholder="Asunto" required="">
+													<input id="Nombre" type="text" name="Nombre" placeholder="Nombre" required="">
+													<input id="Asunto" type="text" name="Asunto" placeholder="Asunto" required="">
 												</div>
 												<div class="col-md-6 agileits_agile_about_mail_left">
-													<input type="email" name="Email" placeholder="Email" required="">
-													<input type="text" name="Telefono" placeholder="Telefono" required="">
+													<input id="Email" type="email" name="Email" placeholder="Email" required="">
+													
 												</div>
-												<div class="clearfix"> </div>
-												<textarea name="Message" placeholder="Mensaje..." required=""></textarea>
+												<div class="clearfix"> 
+												<textarea id="Mensaje" name="Mensaje" placeholder="Mensaje..." required=""></textarea>
+													</div>
 												<input type="submit" value="Submit">
 											</form>
 										</div>
