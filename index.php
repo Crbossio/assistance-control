@@ -7,6 +7,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
+	<META NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<script>
+//Script que impide el uso del botón atrás del navegador
+if(history.forward(1)){location.replace(history.forward(1))}
+</script>
 <title> CBP Assistance Control</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
