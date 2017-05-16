@@ -41,14 +41,15 @@ $mail->Password = "asistencia"; // Contraseña del correo
 
 if ($mail->Send()){
 echo "<script>alert('Formulario enviado exitosamente, le responderemos lo más pronto posible.');location.href ='javascript:history.back()';</script>";
-
+header('Location: formsend.php');
+    
 }else
 {
 echo "<script>alert('Error al enviar el formulario');location.href ='javascript:history.back()';</script>";
 
 }
 
-header('Location: index.php');
+
 
 ?>
 </body>
