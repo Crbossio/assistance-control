@@ -28,7 +28,7 @@ else
  echo "<script>alert('Login failed.. try again');location.href ='javascript:history.back()';</script>";
     array_push($response,array("code"=>$code,"message"=>$message));
   echo json_encode(array("server_response"=>$response));
-  ///header('Location: index.php');
+  header('Location: index.php');
 
 }
 
