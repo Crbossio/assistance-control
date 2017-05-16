@@ -3,18 +3,18 @@
 	
 	$año = $_POST['año'];
 	
-	$enero = mysql_fetch_array(mysql_query("SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=1 AND YEAR(fecha)='$año'"));
-	$febrero = mysql_fetch_array(mysql_query("SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=2 AND YEAR(fecha)='$año'"));
-	$marzo = mysql_fetch_array(mysql_query("SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=3 AND YEAR(fecha)='$año'"));
-	$abril = mysql_fetch_array(mysql_query("SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=4 AND YEAR(fecha)='$año'"));
-	$mayo = mysql_fetch_array(mysql_query("SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=5 AND YEAR(fecha)='$año'"));
-	$junio = mysql_fetch_array(mysql_query("SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=6 AND YEAR(fecha)='$año'"));
-	$julio = mysql_fetch_array(mysql_query("SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=7 AND YEAR(fecha)='$año'"));
-	$agosto = mysql_fetch_array(mysql_query("SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=8 AND YEAR(fecha)='$año'"));
-	$septiembre = mysql_fetch_array(mysql_query("SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=9 AND YEAR(fecha)='$año'"));
-	$octubre = mysql_fetch_array(mysql_query("SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=10 AND YEAR(fecha)='$año'"));
-	$noviembre = mysql_fetch_array(mysql_query("SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=11 AND YEAR(fecha)='$año'"));
-	$diciembre = mysql_fetch_array(mysql_query("SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=12 AND YEAR(fecha)='$año'"));
+	$enero = mysqli_fetch_array(mysqli_query($conn,"SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=1 AND YEAR(fecha)='$año'"));
+	$febrero = mysqli_fetch_array(mysqli_query($conn,"SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=2 AND YEAR(fecha)='$año'"));
+	$marzo = mysqli_fetch_array(mysqli_query($conn,"SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=3 AND YEAR(fecha)='$año'"));
+	$abril = mysqli_fetch_array(mysqli_query($conn,"SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=4 AND YEAR(fecha)='$año'"));
+	$mayo = mysqli_fetch_array(mysqli_query($conn,"SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=5 AND YEAR(fecha)='$año'"));
+	$junio = mysqli_fetch_array(mysqli_query($conn,"SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=6 AND YEAR(fecha)='$año'"));
+	$julio = mysqli_fetch_array(mysqli_query($conn,"SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=7 AND YEAR(fecha)='$año'"));
+	$agosto = mysqli_fetch_array(mysqli_query($conn,"SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=8 AND YEAR(fecha)='$año'"));
+	$septiembre = mysqli_fetch_array(mysqli_query($conn,"SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=9 AND YEAR(fecha)='$año'"));
+	$octubre = mysqli_fetch_array(mysqli_query($conn,"SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=10 AND YEAR(fecha)='$año'"));
+	$noviembre = mysqli_fetch_array(mysqli_query($conn,"SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=11 AND YEAR(fecha)='$año'"));
+	$diciembre = mysqli_fetch_array(mysqli_query($conn,"SELECT SUM(cantidad) AS r FROM anual WHERE MONTH(fecha)=12 AND YEAR(fecha)='$año'"));
 	
 	$data = array(0 => round($enero['r'],1),
 				  1 => round($febrero['r'],1),
