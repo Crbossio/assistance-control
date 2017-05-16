@@ -15,12 +15,13 @@ $Nombre = $_POST['Nombre'];
 $Email = $_POST['Email'];
 $Mensaje = $_POST['Mensaje'];
 $Asunto = $_POST['Asunto'];
+
 require("archivosformulario/class.phpmailer.php"); // Requiere PHPMAILER para poder enviar el formulario desde el SMTP de google
 $mail = new PHPMailer();
 
 $mail->From     = $Email;
 $mail->FromName = $Nombre; 
-$mail->AddAddress("ptromp@uninorte.edu.co"); // Dirección a la que llegaran los mensajes.
+$mail->AddAddress("crbossio13@gmail.com"); // Dirección a la que llegaran los mensajes.
 
 // Aquí van los datos que apareceran en el correo que reciba
 
