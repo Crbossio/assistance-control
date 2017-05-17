@@ -21,7 +21,7 @@ $resultado=mysqli_query($conn,$query);
 if (mysqli_num_rows($resultado)>0)
 {
 
-$mensaje = "Usuario o contraseña incorrectos";
+$mensaje = "Usuario ya existente";
 echo "<script>";
 echo "if(confirm('$mensaje'));";  
 echo "window.location = 'regprof.php';";
