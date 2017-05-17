@@ -7,7 +7,7 @@ $db_name="USERSDB";
 
 $db_table_name="userinfo";
 
-   $db_connection = new mysqli($db_host, $db_user, $db_password, $db_name);
+$db_connection = new mysqli($db_host, $db_user, $db_password, $db_name);
 
 if (!$db_connection) {
     die('No se ha podido conectar a la base de datos');
@@ -18,7 +18,7 @@ $subs_cedula = utf8_decode($_POST['cedula']);
 $subs_email = utf8_decode($_POST['email']);
 $subs_contraseña = utf8_decode($_POST['contraseña']);
 
-$resultado=mysqli_query("SELECT * FROM ".$db_table_name." WHERE Email = '".$subs_email."'", $db_connection);
+$resultado=mysqli_query($db_connection, "SELECT * FROM ".$db_table_name." WHERE Email = '".$subs_email."'");
 
 if (mysqli_num_rows($resultado)>0)
 {
