@@ -25,7 +25,7 @@ else
 $mensaje = "Usuario o contraseña incorrectos;
 echo "<script>";
 echo "if(confirm('$mensaje'));";  
-echo "window.location = 'index.php';";
+echo "window.location = 'index.html';";
 echo "</script>";
 
 
