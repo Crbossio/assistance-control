@@ -22,7 +22,7 @@ if(mysqli_num_rows($result)>0)
 }
 else
 {
-$mensaje = "Ese Usuario o Email ya esta en uso";
+$mensaje = "Usuario o contraseña incorrectos";
 echo "<script>";
 echo "if(confirm('$mensaje'));";  
 echo "window.location = 'index.php';";
