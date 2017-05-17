@@ -47,9 +47,11 @@ if(mysqli_num_rows($result)>0)
 else
 {
  
- echo "<script>alert('Login failed.. try again');location.href ='javascript:history.back()';</script>";
-    array_push($response,array("code"=>$code,"message"=>$message));
-  
+	$mensaje = "Ese Usuario o Email ya esta en uso";
+echo "<script>";
+echo "if(confirm('$mensaje'));";  
+echo "window.location = 'index.html';";
+echo "</script>";
 
 }
 
