@@ -21,7 +21,11 @@ $resultado=mysqli_query($conn,$query);
 if (mysqli_num_rows($resultado)>0)
 {
 
-header('Location: Fail.html');
+$mensaje = "Usuario o contraseña incorrectos";
+echo "<script>";
+echo "if(confirm('$mensaje'));";  
+echo "window.location = 'regprof.php';";
+echo "</script>";
 
 } else {
     
