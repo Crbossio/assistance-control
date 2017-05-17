@@ -22,11 +22,13 @@ if(mysqli_num_rows($result)>0)
 }
 else
 {
-$mensaje = "Usuario o contraseña incorrectos;
-echo "<script>";
-echo "if(confirm('$mensaje'));";  
-echo "window.location = 'index.html';";
-echo "</script>";
+ $response = array();
+ $code = "login_false";
+ $message = "Login failed";
+ echo "<script>alert('Login failed.. try again');location.href ='javascript:history.back()';</script>";
+  array_push($response,array("code"=>$code,"message"=>$message));
+ echo json_encode(array("server_response"=>$response));
+ header('Location: index.html');
 
 
 }
